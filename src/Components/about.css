@@ -1,0 +1,24 @@
+.about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 200px;
+}
+
+.about_text {
+    max-width: 300px;
+    text-justify: auto;
+}
+
+.skills_list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skills {
+    background-color: #DAAB3A;
+    padding: 10px;
+    border-radius: 5px;
+}

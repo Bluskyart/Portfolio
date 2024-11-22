@@ -1,0 +1,30 @@
+main {
+    padding-top: 60px;
+}
+
+#about {
+    background-image: url("../../assets/png/Projects/background.png");
+    padding-top: 80px;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#projects {
+    background-image: url("../../assets/png/Projects/background-projects.png");
+    padding-top: 80px;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#contact {
+    background-image: url("../../assets/png/Projects/background.png");
+    padding-top: 80px;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

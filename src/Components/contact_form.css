@@ -1,0 +1,44 @@
+.form_container {
+    background: rgb(255, 255, 255, 0.6);
+    padding: 60px;
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto 50px auto;
+    border-radius: 10px;
+    box-shadow: 6px 5px 5px hsl(0, 0%, 80%);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form button {
+    max-width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.form_input {
+    color: #333;
+    background: #F0F0F0 ;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+textarea {
+    resize: none;
+    height: 200px;
+}
+
+@media(max-width: 769px) {
+    .form_container {
+        width: auto;
+    }
+}
