@@ -1,7 +1,7 @@
 [
 	{
-		"id": "c67ab8a7",
-		"title": "Appartement cosy",
+		"id": "Carducci",
+		"title": "Site de photographe - Nina Carducci",
 		"cover": "/assets/Projects/Nina_Carducci.png",
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
@@ -10,18 +10,34 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
 		],
-		"description": "Votre maison loin de chez vous. Que vous veniez de l'autre bout du monde, ou juste de quelques stations de RER, vous vous sentirez chez vous dans notre appartement.",
-		"host": {
-			"name": "Nathalie Jean",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
-		},
-		"outils": [
-			"Équipements de base",
-			"Micro-Ondes",
-			"Douche italienne",
-			"Frigo",
-			"WIFI"
+		"description": "Révision du code d'un site de photographe pour optimiser son référencement, en améliorant sa performance et son accessibilité.",
+		"skills": [
+			"HTML",
+			"CSS",
+			"JavaScript"
 		],
-        "github": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
+        "github": "https://github.com/Bluskyart/OpenClassrooms-Projet4.git",
+		"website": "https://bluskyart.github.io/OpenClassrooms-Projet4/"
+	},
+	{
+		"id": "Kasa",
+		"title": "Site de location d'appartements",
+		"cover": "/assets/Projects/Kasa.png",
+		"pictures": [
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-3.jpg",
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
+		],
+		"description": "Révision du code d'un site de photographe pour optimiser son référencement, en améliorant sa performance et son accessibilité.",
+		"skills": [
+			"HTML",
+			"CSS",
+			"JavaScript",
+			"Nodejs"
+		],
+        "github": "https://github.com/Bluskyart/OpenClassrooms-Projet5.git",
+		"website": ""
 	}
 ]

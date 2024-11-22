@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Header() {
     return (
         <header className='header'>
-            <p>Guerwan Lescrohart</p>
+            <h2>Guerwan Lescrohart</h2>
             <nav className='nav'>
                 <Link reloadDocument className="nav-dark" to="/">Accueil</Link>
                 <Link className="nav-light" to="/#about">A propos</Link>

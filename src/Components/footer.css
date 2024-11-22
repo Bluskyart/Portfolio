@@ -11,10 +11,13 @@
 }
 
 .footer_haut {
+    font-size: 20px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 60%;
-    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #444;
 }
 
 .footer_social {
@@ -24,4 +27,8 @@
 
 .footer_icons {
     width: 20px;
+}
+
+.footer_bas {
+    font-size: 20px;
 }

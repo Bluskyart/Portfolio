@@ -6,6 +6,8 @@ import './index.css';
 import Home from './pages/Home/home';
 import Header from './Components/header';
 import Footer from './Components/footer';
+import "@fontsource/playfair-display";
+import "@fontsource/roboto"; 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 

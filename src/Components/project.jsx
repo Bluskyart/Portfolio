@@ -18,9 +18,14 @@ function Project() {
                     <div className="project-infos">
                         <h2 className="card_title">{item.title}</h2>
                         <p>{item.description}</p>
-                        <NavLink to={`/project/${item.id}`}>
-                            <button>Lien vers le projet</button>
-                        </NavLink>
+                        <div className="project_button">
+                            <NavLink target='_blank' rel="noreferrer" to={item.github}>
+                                <button>Voir sur Github</button>
+                            </NavLink>
+                            <NavLink target='_blank' rel="noreferrer" to={item.website}>
+                            <button>Site du projet</button>
+                            </NavLink>
+                        </div>
                     </div>
                 </div>
         ))}

@@ -14,17 +14,23 @@ main {
 #projects {
     background-image: url("../../assets/png/Projects/background-projects.png");
     padding-top: 80px;
-    height: 800px;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-bottom: 80px;
 }
 
 #contact {
     background-image: url("../../assets/png/Projects/background.png");
-    padding-top: 80px;
-    height: 800px;
+    padding-top: 40px;
+    height: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+
+#contact p {
+    font-size: 40px;
 }

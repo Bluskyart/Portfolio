@@ -1,3 +1,4 @@
+import './contact_form.css';
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 
@@ -51,52 +52,58 @@ const ContactForm = () => {
     };
 
     return (
-        <form onSubmit={handleSubmit}>
-            <div>
-            <label htmlFor="firstName">Prénom:</label>
-            <input
-                type="text"
-                id="firstName"
-                name="firstName"
-                value={formData.firstName}
-                onChange={handleChange}
-                required
-            />
-            </div>
-            <div>
-            <label htmlFor="lastName">Nom:</label>
-            <input
-                type="text"
-                id="lastName"
-                name="lastName"
-                value={formData.lastName}
-                onChange={handleChange}
-                required
-            />
-            </div>
-            <div>
-            <label htmlFor="email">Email:</label>
-            <input
-                type="email"
-                id="email"
-                name="email"
-                value={formData.email}
-                onChange={handleChange}
-                required
-            />
-            </div>
-            <div>
-            <label htmlFor="message">Message:</label>
-            <textarea
-                id="message"
-                name="message"
-                value={formData.message}
-                onChange={handleChange}
-                required
-            />
-            </div>
-            <button type="submit">Envoyer</button>
-        </form>
+        <div className='form_container'>
+            <form className='form' onSubmit={handleSubmit}>
+                <div>
+                <label htmlFor="firstName">Prénom</label>
+                <input
+                    className='form_input'
+                    type="text"
+                    id="firstName"
+                    name="firstName"
+                    value={formData.firstName}
+                    onChange={handleChange}
+                    required
+                />
+                </div>
+                <div>
+                <label htmlFor="lastName">Nom</label>
+                <input
+                    className='form_input'
+                    type="text"
+                    id="lastName"
+                    name="lastName"
+                    value={formData.lastName}
+                    onChange={handleChange}
+                    required
+                />
+                </div>
+                <div>
+                <label htmlFor="email">Adresse email</label>
+                <input
+                    className='form_input'
+                    type="email"
+                    id="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    required
+                />
+                </div>
+                <div>
+                <label htmlFor="message">Message</label>
+                <textarea
+                    className='form_input'
+                    id="message"
+                    name="message"
+                    value={formData.message}
+                    onChange={handleChange}
+                    required
+                />
+                </div>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
     );
 };
 
