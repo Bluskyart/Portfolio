@@ -5,10 +5,11 @@ main {
 #about {
     background-image: url("../../assets/png/Projects/background.png");
     padding-top: 80px;
-    height: 800px;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-bottom: 80px;
 }
 
 #projects {
@@ -31,6 +32,6 @@ main {
     align-items: center;
 }
 
-#contact p {
-    font-size: 40px;
+#contact h2 {
+    margin-top: 70px;
 }

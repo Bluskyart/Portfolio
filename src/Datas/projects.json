@@ -11,10 +11,12 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
 		],
 		"description": "Révision du code d'un site de photographe pour optimiser son référencement, en améliorant sa performance et son accessibilité.",
+		"comments": "Ce projet m'a permis d'aborder pour la première fois le concept de SEO et d'optimisation. De ce fait, comprendre ce qui doit être révisé en priorité a été la principale problématique. C'est en étudiant le fonctionnement du référencement des moteurs de recherche que j'ai pu décider de la méthode adéquate",
 		"skills": [
 			"HTML",
 			"CSS",
-			"JavaScript"
+			"JavaScript",
+			"SEO"
 		],
         "github": "https://github.com/Bluskyart/OpenClassrooms-Projet4.git",
 		"website": "https://bluskyart.github.io/OpenClassrooms-Projet4/"
@@ -30,7 +32,8 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
 		],
-		"description": "Révision du code d'un site de photographe pour optimiser son référencement, en améliorant sa performance et son accessibilité.",
+		"description": "Développement de l'ensemble d'un site de location d’appartements et ses composants avec React",
+		"comments": "Ce projet fut ma première application React.js avec l'utilisation de react-router et d'un fetch sur un fichier JSON pour simuler un appel API. La compréhension du fonctionnement de React, et notamment des components, a été compliqué. Notamment de par sa grande différence par rapport aux projets précédents qui fonctionnaient sans. Pour surmonter cela, j'ai dû étudier des projets que d'autres avaient réalisés pour avoir une meilleure vision globale",
 		"skills": [
 			"HTML",
 			"CSS",

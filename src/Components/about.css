@@ -3,11 +3,34 @@
     flex-direction: row;
     align-items: center;
     gap: 200px;
+    margin: 0 20px 0 20px;
 }
 
 .about_text {
-    max-width: 300px;
+    max-width: 400px;
     text-justify: auto;
+    
+}
+
+.about_text h2, h3 {
+    text-align: center;
+}
+
+.about_text p {
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.about_presentation {
+    background-color: rgb(196,157,131, 0.4);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+p br {
+    display: block;
+    margin-bottom: 1rem;
 }
 
 .skills_list {
@@ -21,4 +44,26 @@
     background-color: #DAAB3A;
     padding: 10px;
     border-radius: 5px;
+}
+
+@media(max-width: 769px) {
+
+.about {
+    flex-direction: column;
+    gap: 150px;
+    margin-bottom: 60px;
+}
+
+.about_skills h2 h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.skills_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
 }

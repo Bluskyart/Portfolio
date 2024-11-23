@@ -5,11 +5,14 @@ function About() {
         <section className="about">
             <div className='about_text'>
                 <h2>A propos de moi</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quidem neque beatae eius est adipisci explicabo sed dolorem atque pariatur? Ad voluptatem, voluptatibus aperiam eveniet deleniti in velit porro culpa!
-                Rerum aliquam vitae incidunt? Asperiores laudantium facilis enim fugiat! Dolores corporis accusantium sed, consequatur similique voluptate molestiae dolorem quae natus neque dolore ducimus. Quaerat id sed atque ut dolore a.</p>
+                <div className='about_presentation'>
+                    <p>Bonjour et bienvenue sur mon portfolio !</p>    
+                    <p>Je m'appelle <strong>Guerwan LESCROHART</strong> et je suis un développeur web débutant passionné par la conception de sites simples, efficaces et esthétiques. Actuellement, j'apprends et mets en pratique les technologies du web comme <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong> et <strong>React</strong>. Je suis motivé par l'idée de résoudre des problèmes techniques et de transformer des idées en projets concrets.</p>
+                    <p>N'hésitez pas à parcourir mon portfolio pour découvrir mes projets et mon parcours !</p>
+                </div>
             </div>
             <div className='about_skills'>
-                <h2>Skills</h2>
+                <h3>Skills</h3>
                 <div className='skills_list'>
                     <div className="skills">HTML</div>
                     <div className="skills">CSS</div>

@@ -22,13 +22,19 @@
 
 .footer_social {
     display: flex;
-    gap: 10px;
+    gap: 15px;
 }
 
 .footer_icons {
-    width: 20px;
+    width: 30px;
 }
 
 .footer_bas {
     font-size: 20px;
+}
+
+@media(max-width: 426px) {
+    .footer_bas {
+        font-size: 15px;
+    }
 }
