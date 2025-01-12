@@ -2,10 +2,20 @@ main {
     padding-top: 60px;
 }
 
+#landing {
+    background-image: url("../../assets/jpg/PatternBright-05.jpg");
+    padding-top: 0px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
 #about {
     background-image: url("../../assets/png/Projects/background.png");
     padding-top: 80px;
-    height: auto;
+    height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -15,7 +25,7 @@ main {
 #projects {
     background-image: url("../../assets/png/Projects/background-projects.png");
     padding-top: 80px;
-    height: auto;
+    height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -25,7 +35,7 @@ main {
 #contact {
     background-image: url("../../assets/png/Projects/background.png");
     padding-top: 40px;
-    height: auto;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;

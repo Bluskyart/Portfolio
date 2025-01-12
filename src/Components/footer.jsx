@@ -17,7 +17,7 @@ function Footer() {
                 </div>
             </div>
             <div className="footer_bas">
-                <p>© Copyright 2024 - Guerwan LESCROHART</p>
+                <p>© Copyright 2025 - Guerwan LESCROHART</p>
             </div>
             
         </footer>
