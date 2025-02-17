@@ -1,15 +1,18 @@
 main {
-    padding-top: 60px;
+    padding-top: 0px;
 }
 
 #landing {
-    background-image: url("../../assets/jpg/PatternBright-05.jpg");
+    background-image: url("../../assets/Webp/Landing_page-Light.webp");
     padding-top: 0px;
-    height: auto;
+    height: 100vh;
+    width: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding-bottom: 80px;
+    background-size: cover;
+    background-position: center;
 }
 
 #about {
@@ -26,6 +29,7 @@ main {
     background-image: url("../../assets/png/Projects/background-projects.png");
     padding-top: 80px;
     height: 100vh;
+    width: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;

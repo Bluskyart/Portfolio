@@ -4,6 +4,7 @@ import Projects from "../../Components/project.jsx";
 import About from "../../Components/about.jsx";
 import Landing from "../../Components/landing_section.jsx";
 
+
 function Home() {
   return (
     <main>

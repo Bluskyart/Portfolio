@@ -1,0 +1,134 @@
+.carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  perspective: 500px;
+  justify-content: center;
+  transform-style: preserve-3d;
+  height: 100%;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #1F2937;
+}
+
+.card-content {
+  text-align: center;
+  font-size: 1rem;
+  color: #4B5563;
+  max-width: 450px;
+  margin-top: 5px;
+}
+
+.card-container {
+  display: flex;
+  position: absolute;
+  transform: rotateX(calc(var(--offset) * 65deg)) scaleX(calc(1 + var(--abs-offset) * -0.4)) translateZ(calc(var(--abs-offset) * -30rem)) translateY(calc(var(--direction) * -4rem));
+  filter: blur(calc(var(--abs-offset) * 1rem));
+  transition: all 0.3s ease-out;
+}
+
+.card-cover {
+  display: flex;
+  justify-content: flex-start;
+  flex: 1;
+  min-width: 500px;
+  min-height: 300px;
+  padding: 2rem;
+  background-color: hsl(172, 21%, calc(100% - var(--abs-offset) * 89%));
+  border-radius: 1rem;
+  color: #9CA3AF;
+  text-align: justify;
+  transition: all 0.3s ease-out;
+}
+
+.card-infos {
+  flex: 1;
+    min-width: 50%;
+}
+
+.project_button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project_button button {
+  height: 40px;
+  min-width: 150px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.project_button button:hover {
+    transform: scale(1.1);
+}
+
+.card h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0 0 0.7em;
+  color: #1F2937;
+}
+.card p, .card h2 {
+  transition: all 0.3s ease-out;
+  opacity: var(--active);
+}
+
+.projects-nav {
+  color: white;
+  font-size: 5rem;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  z-index: 2;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background: unset;
+  border: unset;
+}
+.projects-nav.up {
+  top: 5%;
+  transform: translateX(0%) translatey(250%);
+}
+.projects-nav.down {
+  bottom: 5%;
+  transform: translateX(0%) translatey(10%);
+}/*# sourceMappingURL=carousel.css.map */
+
+@media(max-width: 1025px) {
+  .card-wrapper {
+
+    flex-direction: column;
+    gap: 200px;
+  }
+
+  .projects-nav.up {
+    top: 5%;
+    transform: translateX(0%) translatey(50%);
+  }
+  .projects-nav.down {
+    bottom: 5%;
+    transform: translateX(0%) translatey(-40%);
+  }
+}

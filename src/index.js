@@ -7,7 +7,8 @@ import Home from './pages/Home/home';
 import Header from './Components/header';
 import Footer from './Components/footer';
 import "@fontsource/playfair-display";
-import "@fontsource/roboto"; 
+import "@fontsource/roboto";
+import '@fontsource/dejavu-mono';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 

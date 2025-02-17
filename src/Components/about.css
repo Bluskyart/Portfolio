@@ -65,9 +65,16 @@ p br {
 }
 
 .skills {
-    background-color: #DAAB3A;
+    display: flex;
+    align-items: center;
+    gap: 10px;
     padding: 10px;
     border-radius: 5px;
+}
+
+.skills img {
+    width: 30px;
+    height: 30px;
 }
 
 @media(max-width: 769px) {
@@ -91,3 +98,18 @@ p br {
     margin: 10px;
 }
 }
+
+/* Couleurs skills */
+.html { background: #d35400; }
+
+.css { background: #2980b9; }
+
+.javascript { background: #fac552; }
+
+.react { background: #61DAFB; }
+
+.nodejs { background: #3cba54; }
+
+.seo { background: #68A063; }
+
+.github { background: #7E72FF; }
