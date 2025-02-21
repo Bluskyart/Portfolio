@@ -35,7 +35,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(205,232,231, 0.6);
+    background-color: #8BBDBD;
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(7 px);

@@ -16,7 +16,8 @@ main {
 }
 
 #about {
-    background-image: url("../../assets/png/Projects/background.png");
+    background-image: url("../../assets/png/Projects/HexagonTexture3.jpg");
+    background-size: cover;
     padding-top: 80px;
     height: 100vh;
     display: flex;
@@ -26,7 +27,7 @@ main {
 }
 
 #projects {
-    background-image: url("../../assets/png/Projects/background-projects.png");
+    background-color: #E7E3E4;
     padding-top: 80px;
     height: 100vh;
     width: auto;
@@ -34,6 +35,7 @@ main {
     flex-direction: row;
     justify-content: center;
     padding-bottom: 80px;
+    border-top: black;
 }
 
 #contact {

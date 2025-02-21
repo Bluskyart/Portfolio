@@ -15,6 +15,7 @@
   align-items: center;
   width: 100%;
   justify-content: space-between;
+  margin: 0 20px 0 20px;
 }
 
 .card-title {
@@ -39,6 +40,7 @@
   transform: rotateX(calc(var(--offset) * 65deg)) scaleX(calc(1 + var(--abs-offset) * -0.4)) translateZ(calc(var(--abs-offset) * -30rem)) translateY(calc(var(--direction) * -4rem));
   filter: blur(calc(var(--abs-offset) * 1rem));
   transition: all 0.3s ease-out;
+  width: 900px;
 }
 
 .card-cover {
