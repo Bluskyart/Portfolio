@@ -7,15 +7,16 @@
   justify-content: center;
   transform-style: preserve-3d;
   height: 100%;
+  margin: 0 5% 0 5%;
 }
 
 .card-wrapper {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 100%;
+  width: auto;
   justify-content: space-between;
-  margin: 0 20px 0 20px;
+  margin: 0 auto;
 }
 
 .card-title {
@@ -40,15 +41,16 @@
   transform: rotateX(calc(var(--offset) * 65deg)) scaleX(calc(1 + var(--abs-offset) * -0.4)) translateZ(calc(var(--abs-offset) * -30rem)) translateY(calc(var(--direction) * -4rem));
   filter: blur(calc(var(--abs-offset) * 1rem));
   transition: all 0.3s ease-out;
-  width: 900px;
+  width: 100%;
 }
 
 .card-cover {
   display: flex;
   justify-content: flex-start;
-  flex: 1;
-  min-width: 500px;
-  min-height: 300px;
+  max-width: 50%;
+  min-height: 50%;
+  height: 500px;
+  width: 850px;
   padding: 2rem;
   background-color: hsl(172, 21%, calc(100% - var(--abs-offset) * 89%));
   border-radius: 1rem;
@@ -58,8 +60,11 @@
 }
 
 .card-infos {
-  flex: 1;
-    min-width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 50%;
+  transition: all 0.5s ease-in-out;
 }
 
 .project_button {
@@ -120,7 +125,6 @@
 
 @media(max-width: 1025px) {
   .card-wrapper {
-
     flex-direction: column;
     gap: 200px;
   }
@@ -132,5 +136,31 @@
   .projects-nav.down {
     bottom: 5%;
     transform: translateX(0%) translatey(-40%);
+  }
+}
+
+@media(max-width: 768px) {
+  .card-cover {
+    max-width: 90%;
+  }
+}
+
+@media(max-width: 430px) {
+  .carousel {
+    margin: 0;
+  }
+  .card-cover {
+    max-width: 70%;
+    height: 200px;
+  }
+
+  .card-wrapper {
+    width: auto;
+    height: auto;
+    margin: 0;
+  }
+
+  .card-infos {
+    margin: 10px;
   }
 }

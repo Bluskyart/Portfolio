@@ -73,7 +73,7 @@
     }
 }
 
-@media(max-width: 426px) {
+@media(max-width: 430px) {
     .card_skills {
         gap: 15px;
         display: flex;

@@ -8,7 +8,7 @@ const MAX_VISIBILITY = 3;
 
 const Card = ({title, content, cover, github, website, isActive }) => (
   <div className='card-wrapper'style={{opacity: isActive ? 1 : 0, pointerEvents: isActive ? "auto" : "none", transition: "opacity 0.3s ease-out"}}>
-    <div className='card-cover' style={{backgroundImage: `url(${cover})`, backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat",}}></div>
+    <div className='card-cover' style={{backgroundImage: `url(${cover})`, backgroundSize: "contain", backgroundPosition: "center", backgroundRepeat: "no-repeat",}}></div>
     <div className="card-infos">
       <h2 className="card-title">{title}</h2>
       <p className="card-content">{content}</p>
@@ -25,7 +25,7 @@ const Card = ({title, content, cover, github, website, isActive }) => (
 );
 
 const Carousel = () => {
-  const [active, setActive] = useState(2);
+  const [active, setActive] = useState(0);
   const [items, setItems] = useState([]);
 
   useEffect(() => {
