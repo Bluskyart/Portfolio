@@ -100,7 +100,7 @@
 
 .projects-nav {
   color: white;
-  font-size: 5rem;
+  font-size: 8rem;
   position: absolute;
   display: flex;
   align-items: center;
@@ -116,11 +116,11 @@
 }
 .projects-nav.up {
   top: 5%;
-  transform: translateX(0%) translatey(250%);
+  transform: translateX(0%) translatey(20%);
 }
 .projects-nav.down {
   bottom: 5%;
-  transform: translateX(0%) translatey(10%);
+  transform: translateX(0%) translatey(30%);
 }/*# sourceMappingURL=carousel.css.map */
 
 @media(max-width: 1025px) {
@@ -162,5 +162,18 @@
 
   .card-infos {
     margin: 10px;
+  }
+
+  .projects-nav {
+    font-size: 5rem;
+  }
+
+  .projects-nav.up {
+    top: 5%;
+    transform: translateX(0%) translatey(20%);
+  }
+  .projects-nav.down {
+    bottom: 5%;
+    transform: translateX(0%) translatey(-65%);
   }
 }
