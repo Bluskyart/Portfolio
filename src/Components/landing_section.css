@@ -9,7 +9,7 @@
 .intro {
     text-align: center;
     position: relative;
-    top: 20%;
+    margin-top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 10px;
@@ -33,7 +33,7 @@
 .scroll-down {
     position: relative;
     left: 45%;
-    margin: 170px 0;
+    margin-top: -15%;
     transform: translate(-50%, -50%);
     animation-name: bounce;
     animation-duration: 1s;
@@ -60,11 +60,15 @@
 }
 
 @media(max-width: 430px) {
+    .intro{
+        margin-top: 40%;
+    }
     #text {
-    font-size: 2rem;
+    font-size: 1.5rem;
     }
     
     .scroll-down {
         left: 40%;
+        margin-top: -50%;
     }
 }

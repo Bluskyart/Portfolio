@@ -17,7 +17,7 @@ main {
 
 #about {
     background: rgb(241,232,228);
-    background: linear-gradient(0deg, rgba(241,232,228,1) 0%, rgba(18,86,102,1) 100%);
+    background: linear-gradient(0deg, rgba(177,216,201,1) 0%, rgba(18,86,102,1) 100%);
     background-size: cover;
     padding-top: 80px;
     height: 100vh;
@@ -28,7 +28,7 @@ main {
 }
 
 #projects {
-    background: rgb(241,232,228);
+    background: rgb(177,216,201);
     padding-top: 80px;
     height: 100vh;
     width: auto;
@@ -41,7 +41,7 @@ main {
 
 #contact {
     background: rgb(18,86,102);
-    background: linear-gradient(0deg, rgba(18,86,102,1) 0%, rgba(241,232,228,1) 100%);
+    background: linear-gradient(0deg, rgba(18,86,102,1) 0%, rgba(177,216,201,1) 100%);
     padding-top: 40px;
     height: 80vh;
     display: flex;
