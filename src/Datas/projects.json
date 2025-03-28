@@ -1,5 +1,27 @@
 [
 	{
+		"id": "Booki",
+		"title": "Page d'accueil d'une agence de voyage",
+		"cover": "/assets/Projects/Booki.png",
+		"pictures": [
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-3.jpg",
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
+		],
+		"description": "Intégration de l'interface du site avec du code HTML et CSS, en partant d'une maquette figma",
+		"comments": "Ce projet m'a permis d'aborder pour la première fois le concept de SEO et d'optimisation. De ce fait, comprendre ce qui doit être révisé en priorité a été la principale problématique. C'est en étudiant le fonctionnement du référencement des moteurs de recherche que j'ai pu décider de la méthode adéquate",
+		"skills": [
+			"HTML",
+			"CSS",
+			"JavaScript",
+			"SEO"
+		],
+        "github": "https://github.com/Bluskyart/OpenClassrooms-Projet2.git",
+		"website": "https://projet2-booki.vercel.app/"
+	},
+	{
 		"id": "Carducci",
 		"title": "Site de photographe - Nina Carducci",
 		"cover": "/assets/Projects/Nina_Carducci.png",

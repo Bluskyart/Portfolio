@@ -11,7 +11,7 @@ function Landing() {
     return (
         <div className='landing'>
             <div className="intro">
-                <p>Bienvenue !</p>
+                <p id="welcome-text">Bienvenue !</p>
                 <p id="text">JE SUIS GUERWAN LESCROHART <br/>DEVELOPPEUR WEB</p>
             </div>
             <svg class="scroll-down" fill="#b6d6f2" height="75" viewBox="0 0 24 24" width="75" xmlns="http://www.w3.org/2000/svg">

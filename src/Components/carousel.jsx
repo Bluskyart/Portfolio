@@ -6,8 +6,13 @@ import { NavLink } from "react-router-dom";
 
 const MAX_VISIBILITY = 3;
 
-const Card = ({title, content, cover, github, website, isActive }) => (
+const Card = ({title, content, cover, github, website, isActive, onPrev, onNext, hasPrev, hasNext }) => (
   <div className='card-wrapper'style={{opacity: isActive ? 1 : 0, pointerEvents: isActive ? "auto" : "none", transition: "opacity 0.3s ease-out"}}>
+    {hasPrev && (
+      <button className="projects-nav up" onClick={onPrev}>
+        <TiChevronRightOutline style={{ transform: "rotate(-90deg)" }} />
+      </button>
+    )}
     <div className='card-cover' style={{backgroundImage: `url(${cover})`, backgroundSize: "contain", backgroundPosition: "center", backgroundRepeat: "no-repeat",}}></div>
     <div className="card-infos">
       <h2 className="card-title">{title}</h2>
@@ -21,6 +26,11 @@ const Card = ({title, content, cover, github, website, isActive }) => (
         </NavLink>
       </div>
     </div>
+    {hasNext && (
+      <button className="projects-nav down" onClick={onNext}>
+        <TiChevronLeftOutline style={{ transform: "rotate(-90deg)" }} />
+      </button>
+    )}
   </div>
 );
 
@@ -34,12 +44,6 @@ const Carousel = () => {
 
   return (
     <div className="carousel">
-      {active > 0 && (
-        <button className="projects-nav up" onClick={() => setActive((i) => i - 1)}>
-          <TiChevronRightOutline style={{ transform: "rotate(-90deg)" }} />
-        </button>
-      )}
-
       {items.map((project, i) => (
         <div
           key={project.id}
@@ -54,15 +58,18 @@ const Carousel = () => {
             display: Math.abs(active - i) > MAX_VISIBILITY ? "none" : "block",
           }}
         >
-          <Card title={project.title} content={project.description} cover={project.cover} github={project.github} website={project.website} isActive={i === active}/>
+          <Card title={project.title}
+            content={project.description}
+            cover={project.cover}
+            github={project.github}
+            website={project.website}
+            isActive={i === active}
+            onPrev={() => setActive((i) => i - 1)}
+            onNext={() => setActive((i) => i + 1)}
+            hasPrev={active > 0}
+            hasNext={active < items.length - 1}/>
         </div>
       ))}
-
-      {active < items.length - 1 && (
-        <button className="projects-nav down" onClick={() => setActive((i) => i + 1)}>
-          <TiChevronLeftOutline style={{ transform: "rotate(-90deg)" }}  />
-        </button>
-      )}
     </div>
   );
 };

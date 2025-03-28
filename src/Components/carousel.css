@@ -18,6 +18,7 @@
   width: auto;
   justify-content: space-between;
   margin: 0 auto;
+  position: relative;
 }
 
 .card-title {
@@ -116,13 +117,15 @@
   border: unset;
 }
 .projects-nav.up {
-  top: 5%;
-  transform: translateX(0%) translatey(20%);
+  top: 40%;
+  left: 50%;
+  transform: translatey(-280%);
 }
 .projects-nav.down {
-  bottom: 5%;
-  transform: translateX(0%) translatey(30%);
-}/*# sourceMappingURL=carousel.css.map */
+  bottom: 30%;
+  left: 50%;
+  transform: translatey(280%);
+}
 
 @media(max-width: 1025px) {
   .card-wrapper {
@@ -143,6 +146,16 @@
 @media(max-width: 768px) {
   .card-cover {
     max-width: 90%;
+  }
+  .projects-nav.up {
+    top: 23%;
+    left: 40%;
+    transform: translatey(-280%);
+  }
+  .projects-nav.down {
+    bottom: 46%;
+    left: 40%;
+    transform: translatey(280%);
   }
 }
 
@@ -170,11 +183,13 @@
   }
 
   .projects-nav.up {
-    top: 5%;
-    transform: translateX(0%) translatey(20%);
+    top: 20%;
+    left: 40%;
+    transform: translatey(-280%);
   }
   .projects-nav.down {
-    bottom: 5%;
-    transform: translateX(0%) translatey(-65%);
+    bottom: 50%;
+    left: 40%;
+    transform: translatey(280%);
   }
 }
